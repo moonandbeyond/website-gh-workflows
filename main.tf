@@ -45,6 +45,7 @@ module "homepage" {
 
   <!-- Add your site or application content here -->
   <img src="${var.image_src}" >
+  <p>Make money, buy crypto</p>
   <p>Running on <strong>${var.env}</strong></p>
 
 </body>
