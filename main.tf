@@ -7,7 +7,7 @@ provider "aws" {
 
 module "homepage" {
   source  = "app.terraform.io/moonandbeyond/s3website/aws"
-  version = "v0.1.1"
+  version = "v0.1.2"
 
   bucket_name = "moon-and-beyond-money-machine-gh-actions-${var.env}"
   website = {
