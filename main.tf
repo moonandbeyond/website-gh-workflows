@@ -91,6 +91,7 @@ module "homepage" {
   }
 
   tags = {
-    env = var.env
+    env   = var.env
+    trial = "2"
   }
 }
