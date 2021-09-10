@@ -7,7 +7,7 @@ provider "aws" {
 
 module "homepage" {
   source  = "app.terraform.io/moonandbeyond/s3website/aws"
-  version = "v0.1.1"
+  version = "v0.1.2"
 
   bucket_name = "moon-and-beyond-money-machine-gh-actions-${var.env}"
   website = {
@@ -45,6 +45,7 @@ module "homepage" {
 
   <!-- Add your site or application content here -->
   <img src="${var.image_src}" >
+  <p>Make money, buy crypto</p>
   <p>Running on <strong>${var.env}</strong></p>
 
 </body>
